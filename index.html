@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Affitti a Breve Termine</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="text-center text-white py-5">
+        <h1>Affitti a Breve Termine</h1>
+        <p>Benvenuti nella nostra piattaforma di affitti a breve termine.</p>
+    </header>
+
+    <section id="booking" class="text-center py-5">
+        <div class="container">
+            <h2>Prenota una Stanza</h2>
+            <form action="booking.php" method="POST" class="mx-auto mt-4" style="max-width: 600px;">
+                <div class="form-group">
+                    <label for="name">Nome</label>
+                    <input type="text" class="form-control" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="phone">Telefono</label>
+                    <input type="text" class="form-control" id="phone" name="phone" required>
+                </div>
+                <div class="form-group">
+                    <label for="roomType">Tipo di Alloggio</label>
+                    <select class="form-control" id="roomType" name="roomType">
+                        <option value="Camera Singola">Camera Singola</option>
+                        <option value="Camera Doppia">Camera Doppia</option>
+                        <option value="Suite">Suite</option>
+                    </select>
+                </div>
+                <div class="form-group">
+                    <label for="bookingDate">Data di Prenotazione</label>
+                    <input type="date" class="form-control" id="bookingDate" name="bookingDate" required>
+                </div>
+                <button type="submit" class="btn btn-primary">Prenota Ora</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="text-center text-white py-4">
+        <p>&copy; 2024 Affitti a Breve Termine. Tutti i diritti riservati.</p>
+    </footer>
+</body>
+</html>
+
+
