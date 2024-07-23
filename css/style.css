@@ -1,0 +1,25 @@
+body {
+    font-family: 'Arial', sans-serif;
+}
+
+header {
+    background: url('header-bg.jpg') no-repeat center center;
+    background-size: cover;
+    color: white;
+}
+
+section#booking {
+    background: #f9f9f9;
+}
+
+form {
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    background: #343a40;
+    color: white;
+}
